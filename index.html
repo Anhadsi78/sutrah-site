@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sutrah — Muslim Focus &amp; Azan for iPhone</title>
+<meta name="description" content="Sutrah locks your distracting apps at every adhan and opens them only after you read Quran. Prayer times, azan, qibla, tasbih, Ramadan mode. No ads, no account, nothing leaves your phone.">
+<meta name="color-scheme" content="dark">
+<style>
+  :root { --bg:#0B0F14; --surface:#121821; --hair:rgba(255,255,255,.08); --text:#F2F4F7; --sec:#A3ADBD; --ter:#6B7686; --teal:#2FBF9F; --gold:#E5C07B; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; }
+  a { color:var(--teal); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 20px; }
+  header { padding:28px 0; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--hair); }
+  .brand { display:flex; align-items:center; gap:12px; font-weight:600; font-size:18px; color:var(--text); }
+  .brand svg { width:32px; height:32px; }
+  nav a { color:var(--sec); margin-left:20px; font-size:15px; }
+  .hero { padding:72px 0 40px; text-align:center; background:radial-gradient(60% 40% at 50% 0%, rgba(47,191,159,.22), transparent 70%); }
+  .hero h1 { font-size:clamp(34px,6vw,58px); line-height:1.08; margin:0 0 16px; letter-spacing:-.02em; }
+  .hero p { font-size:19px; color:var(--sec); max-width:620px; margin:0 auto 28px; }
+  .cta { display:inline-block; background:var(--teal); color:var(--bg); font-weight:600; padding:14px 26px; border-radius:999px; }
+  .cta:hover { text-decoration:none; filter:brightness(1.06); }
+  .note { color:var(--ter); font-size:14px; margin-top:12px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; padding:32px 0; }
+  .card { background:var(--surface); border:1px solid var(--hair); border-radius:20px; padding:20px; }
+  .card h3 { margin:0 0 8px; font-size:17px; } .card p { margin:0; color:var(--sec); font-size:15px; }
+  .card .k { color:var(--gold); font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; display:block; margin-bottom:8px; }
+  h2 { font-size:26px; margin:40px 0 12px; letter-spacing:-.01em; }
+  .steps { counter-reset:s; list-style:none; padding:0; margin:0; }
+  .steps li { position:relative; padding:12px 0 12px 56px; border-bottom:1px solid var(--hair); color:var(--sec); }
+  .steps li::before { counter-increment:s; content:counter(s); position:absolute; left:0; top:10px; width:36px; height:36px; border-radius:50%; background:rgba(47,191,159,.16); color:var(--teal); font-weight:600; display:grid; place-items:center; }
+  .steps b { color:var(--text); }
+  .pro { border:1px solid rgba(229,192,123,.35); }
+  .pro ul { margin:8px 0 0; padding-left:18px; color:var(--sec); }
+  .privacy { background:var(--surface); border:1px solid var(--hair); border-radius:20px; padding:24px; margin:8px 0 32px; }
+  footer { border-top:1px solid var(--hair); padding:28px 0 48px; color:var(--ter); font-size:14px; display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./">
+      <svg viewBox="0 0 96 116" aria-hidden="true"><path d="M48 4 8 20v36c0 26 17 44 40 56 23-12 40-30 40-56V20L48 4z" fill="none" stroke="#2FBF9F" stroke-width="6" stroke-linejoin="round"/><rect x="34" y="52" width="28" height="24" rx="6" fill="#2FBF9F"/><path d="M40 52v-8a8 8 0 0 1 16 0v8" fill="none" stroke="#2FBF9F" stroke-width="6"/></svg>
+      Sutrah
+    </a>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+
+  <section class="hero">
+    <h1>Your apps lock at every adhan.<br>Read Quran to open them.</h1>
+    <p>Sutrah is a barrier between you and the scroll. Pick the apps that steal your time; Sutrah holds them at each of the five prayers and during focus sessions, and opens them only after Quran or dhikr.</p>
+    <a class="cta" href="https://apps.apple.com/app/id6809207368">Download on the App Store</a>
+    <div class="note">iPhone, iOS 17 or later. Free to use; Sutrah Pro is optional.</div>
+  </section>
+
+  <section class="grid">
+    <div class="card"><span class="k">Lock</span><h3>Auto-lock at each adhan</h3><p>Fajr, Dhuhr, Asr, Maghrib, Isha. Hold chosen apps for 10, 20 or 30 minutes. Deep-focus sessions from 15 to 120 minutes, with a strict mode that has no way out.</p></div>
+    <div class="card"><span class="k">Unlock</span><h3>Quran or dhikr to unlock</h3><p>Read 2, 5 or 10 minutes in the built-in mushaf, or finish a tasbih round, to earn 15, 30 or 60 minutes back.</p></div>
+    <div class="card"><span class="k">Prayer</span><h3>Times, azan, qibla</h3><p>Twelve calculation methods including Tehran (Jafari) and a Hanafi Asr option. Reliable adhan notifications. Hijri date. Qibla compass.</p></div>
+    <div class="card"><span class="k">Quran</span><h3>Whole Quran, offline</h3><p>Uthmani script in Amiri Quran, transliteration, eight translations, night mode, resume where you left off.</p></div>
+    <div class="card"><span class="k">Ramadan</span><h3>Ramadan mode</h3><p>Suhoor and iftar on the Today screen, a taraweeh hold, and khatm pacing to finish by Eid.</p></div>
+    <div class="card"><span class="k">Progress</span><h3>Streaks and a weekly card</h3><p>Minutes blocked, minutes read, streaks. Share a weekly card with friends or family.</p></div>
+  </section>
+
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li><b>Choose your apps.</b> Apple's Screen Time picker; Sutrah only ever sees the apps you pick, never what you do in them.</li>
+    <li><b>At the adhan, they are held.</b> A Sutrah shield replaces the app. Pray first.</li>
+    <li><b>Read to open early.</b> Tap "Open Sutrah", read Quran or do dhikr, and the app opens for the time you chose.</li>
+    <li><b>Keep the streak.</b> Every prayer kept and every minute read counts.</li>
+  </ol>
+
+  <h2>Sutrah Pro</h2>
+  <div class="card pro">
+    <p>The free version is complete for one app: one held app, one prayer-time lock, one Quran unlock a day, with full prayer times, the whole Quran, tasbih and stats, forever. Pro adds:</p>
+    <ul>
+      <li>Unlimited apps, categories, locks and gates</li>
+      <li>Live Activity countdown on the Lock Screen and Dynamic Island</li>
+      <li>Home and Lock Screen widgets</li>
+      <li>Accountability partner messages</li>
+      <li>Strict mode, Ramadan mode, all translations and calculation methods</li>
+    </ul>
+    <p style="margin-top:12px">Yearly with a 7-day free trial, lifetime, or weekly. Cancel any time in Settings. If you cannot afford Pro, the free version holds one app at every prayer, forever.</p>
+  </div>
+
+  <h2>Private by design</h2>
+  <div class="privacy">
+    <p style="margin:0 0 8px">No account. No analytics. No ads. No server. Everything Sutrah knows stays on your phone.</p>
+    <p style="margin:0;color:var(--sec)">Location is read once, for prayer times and the qibla. Screen Time data never leaves your device; Apple applies the shield, and Sutrah cannot see your usage. Read the full <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+
+  <footer>
+    <span>Sutrah · made by Anhad Singh</span>
+    <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:singhanhad78@gmail.com">singhanhad78@gmail.com</a></span>
+  </footer>
+</div>
+</body>
+</html>

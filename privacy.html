@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sutrah — Privacy Policy</title>
+<meta name="description" content="Sutrah privacy policy: no accounts, no analytics, no ads, no server. Screen Time data and location never leave your device.">
+<meta name="color-scheme" content="dark">
+<style>
+  :root { --bg:#0B0F14; --surface:#121821; --hair:rgba(255,255,255,.08); --text:#F2F4F7; --sec:#A3ADBD; --ter:#6B7686; --teal:#2FBF9F; --gold:#E5C07B; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; }
+  a { color:var(--teal); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:760px; margin:0 auto; padding:0 20px 64px; }
+  header { padding:28px 0; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--hair); }
+  .brand { font-weight:600; font-size:18px; color:var(--text); }
+  nav a { color:var(--sec); margin-left:20px; font-size:15px; }
+  h1 { font-size:34px; margin:40px 0 4px; letter-spacing:-.02em; }
+  .meta { color:var(--ter); font-size:14px; margin-bottom:24px; }
+  h2 { font-size:21px; margin:32px 0 8px; }
+  p, li { color:var(--sec); }
+  .tldr { background:var(--surface); border:1px solid var(--hair); border-radius:20px; padding:20px 24px; }
+  .tldr p { margin:0; color:var(--text); }
+  table { width:100%; border-collapse:collapse; font-size:15px; margin:12px 0; }
+  th, td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--hair); vertical-align:top; }
+  th { color:var(--text); font-weight:600; }
+  td { color:var(--sec); }
+  code { background:var(--surface); border:1px solid var(--hair); border-radius:6px; padding:1px 6px; font-size:14px; color:var(--text); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./">Sutrah</a>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <div class="meta">Sutrah: Muslim Focus &amp; Azan for iPhone · Effective 6 September 2026 · Developer: Anhad Singh</div>
+
+  <div class="tldr">
+    <p>Sutrah does not collect, store or share any personal data. There is no account, no analytics, no advertising, and no Sutrah server. Everything the app knows lives on your iPhone and is deleted when you delete the app.</p>
+  </div>
+
+  <h2>1. Data we collect</h2>
+  <p>None. Sutrah has no networking code. It does not send anything to us or to any third party. We cannot see who uses the app, how, or where.</p>
+
+  <h2>2. Data that stays on your device</h2>
+  <p>To work, Sutrah keeps the following on your iPhone only, inside the app's private storage (an App Group shared with Sutrah's own extensions). None of it is transmitted.</p>
+  <table>
+    <tr><th>What</th><th>Why</th><th>Where it goes</th></tr>
+    <tr><td>Your chosen apps and categories (Screen Time selection)</td><td>So iOS can hold them at prayer times and during focus sessions</td><td>Stored as opaque tokens from Apple's Screen Time framework. Sutrah cannot read the names of the apps you picked, and it never receives usage data about them.</td></tr>
+    <tr><td>Approximate location (latitude, longitude, city name)</td><td>Prayer times and the qibla direction for your city</td><td>Read once when you tap "Use my location". Stored on the device. You can type a city instead and never grant location.</td></tr>
+    <tr><td>Prayer settings, reading position, Quran gate settings</td><td>To remember your preferences</td><td>On device.</td></tr>
+    <tr><td>Streaks, minutes read, minutes blocked, unlock attempts</td><td>Your progress screen and weekly card</td><td>On device. The weekly card is an image you may choose to share yourself.</td></tr>
+    <tr><td>Accountability partner (one name and phone number)</td><td>To prefill a text message if you end a session early</td><td>Only if you pick a contact yourself. Stored on device. iOS requires you to tap Send; Sutrah cannot send messages on its own.</td></tr>
+    <tr><td>Sutrah Pro status</td><td>To unlock Pro features</td><td>A yes/no flag on device, derived from your App Store purchase.</td></tr>
+  </table>
+
+  <h2>3. Screen Time (Family Controls)</h2>
+  <p>Sutrah uses Apple's Family Controls, Managed Settings and Device Activity frameworks in "individual" mode: you manage your own device. iOS asks for your permission before Sutrah can hold any app. Apple applies the shield; Sutrah only tells iOS when to hold and when to release. Sutrah does not use Apple's usage-report API, so it never sees how long you use any app. Screen Time data never leaves your device and is never sent to us.</p>
+
+  <h2>4. Location</h2>
+  <p>Sutrah asks for "While Using the App" location once, on the last onboarding screen, to calculate prayer times and the qibla. It stores the coordinate on your device. To label the coordinate with a city name, the app asks Apple's built-in geocoding service (the same one Maps uses); that request goes to Apple under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>, not to us. Sutrah does not track your location, does not use background location, and works fully if you deny location and type a city instead.</p>
+
+  <h2>5. Quran text and audio</h2>
+  <p>The whole Quran (Uthmani text, transliteration and translations) is included inside the app, so reading never needs an internet connection. The current version has no audio recitation. If a future version streams recitation audio, it would be fetched from a content delivery network without any account or identifier, and this policy will say so.</p>
+
+  <h2>6. Purchases</h2>
+  <p>Sutrah Pro is sold through Apple's App Store using StoreKit. Apple processes the payment and knows what you bought; Sutrah only receives a signed confirmation on the device that a purchase exists. We do not see your name, payment details or Apple ID. Subscriptions can be cancelled any time in iPhone Settings → Apple Account → Subscriptions. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h2>7. Notifications</h2>
+  <p>Adhan reminders, session-end and streak reminders are local notifications scheduled on your device. Sutrah has no push notification server.</p>
+
+  <h2>8. Analytics, advertising, tracking</h2>
+  <p>There are none. No third-party SDKs are included except the open-source <code>adhan-swift</code> library, which calculates prayer times offline. Sutrah does not use the advertising identifier and does not track you across apps or websites.</p>
+
+  <h2>9. Children</h2>
+  <p>Sutrah is a general-audience app that does not collect data from anyone, including children. It is not a parental-control product and cannot manage another person's device.</p>
+
+  <h2>10. Deleting your data</h2>
+  <p>Delete the Sutrah app. iOS removes all of its storage, including the Screen Time selection, location, progress and partner details. Screen Time permission can also be revoked in Settings → Screen Time → Apps with Screen Time Access.</p>
+
+  <h2>11. Changes</h2>
+  <p>If Sutrah ever starts collecting data (for example an optional iCloud sync), this page will be updated before that version ships, and the App Store privacy label will change to match.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions about privacy: <a href="mailto:singhanhad78@gmail.com">singhanhad78@gmail.com</a>.</p>
+</div>
+</body>
+</html>
